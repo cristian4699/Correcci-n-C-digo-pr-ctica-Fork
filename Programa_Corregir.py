@@ -1,4 +1,8 @@
-def c(r,h):return 3.14*r*r*h
+def volumen_cilindro(radio, altura):
+    pi = 3.14
+    return pi * radio * radio * altura
+
+
 def v(l,a,h):return l*a*h
 def cubo(a):return a*a*a
 def principal():
